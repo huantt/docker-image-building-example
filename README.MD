@@ -30,6 +30,10 @@ EXPOSE <PORT>
 
 # Run Docker container
  ```bash
- docker run --rm -p 127.0.0.1:<PORT> spring-service-test:<APP_VERSION>
+ docker run \
+ --name <APP_NAME> \
+ --rm \ 
+ -p 127.0.0.1:<PORT> \
+ <IMAGE_NAME>:<TAG>
  ```
  *Replace \<PORT\> and \<APP_VERSION\>*
