@@ -1,6 +1,6 @@
 ### Build project
 ```bash
-gradle clean build unzip
+gradle clean build
 ```
 
 ### Dockerfile
